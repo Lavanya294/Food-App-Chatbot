@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pandeyji Foods</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="Logo" height="150" style="border-radius: 10px;" />
+      <h1>Pandeyji Foods</h1>
+      <nav>
+        <a href="#home">HOME</a> |
+        <a href="#menu">MENU</a> |
+        <a href="#location">LOCATION</a> |
+        <a href="#aboutus">ABOUT US</a> |
+        <a href="#contactus">CONTACT US</a>
+      </nav>
+    </header>
+
+    <section id="home">
+      <img src="banner.jpg" alt="Restaurant Banner">
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div class="grid-container">
+        <div class="menu-item">
+          <img src="pav_bhaji.webp" alt="Pav Bhaji">
+          <p>Pav Bhaji - $6.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="chole_bhature.webp" alt="Chole Bhature">
+          <p>Chole Bhature - $7.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="pizza.webp" alt="Pizza">
+          <p>Pizza - $8.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="mango_lassi.webp" alt="Mango Lassi">
+          <p>Mango Lassi - $5.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="masala_dosa.jpg" alt="Masala Dosa">
+          <p>Masala Dosa - $6.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="biryani.jpg" alt="Vegetable Biryani">
+          <p>Vegetable Biryani - $9.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="vada-pav.jpg" alt="Vada Pav">
+          <p>Vada Pav - $4.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="rava_dosa.webp" alt="Rava Dosa">
+          <p>Rava Dosa - $7.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="samosa.webp" alt="Samosa">
+          <p>Samosa - $5.00</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="location">
+      <h2>Location</h2>
+      <p>38 Patli Gali, Mumbai</p>
+    </section>
+
+    <section id="aboutus">
+      <h2>About Us</h2>
+      <p>At Pandeyji Foods, we bring the authentic flavors of India to your plate with love and tradition. From Mumbai’s street-style Vada Pav to the rich aroma of Biryani, we serve happiness in every bite.</p>
+    </section>
+
+    <section id="contactus">
+      <h2>Contact Us</h2>
+      <p>Got questions? Want to place an order? Call us at <strong>+91 1234567890</strong> or email us at <strong>info@pandeyjifoods.com</strong></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Pandeyji Foods. Made with ❤️ in India.</p>
+    </footer>
+  </div>
+
+  <!-- Dialogflow Messenger Integration -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="mira-chatbot"
+    agent-id="8fffe76b-85c0-46e1-8c6f-e7f6bfbaf952"
+    language-code="en">
+  </df-messenger>
+</body>
+</html>
